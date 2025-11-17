@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0f29;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #00eaff;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav button {
+    background: #1a1f40;
+    border: 2px solid #00eaff;
+    color: white;
+    padding: 10px 20px;
+    margin: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    background: #00eaff;
+    color: black;
+}
+
+#resultado {
+    margin-top: 35px;
+    padding: 25px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 10px;
+    min-height: 150px;
+}
